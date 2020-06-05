@@ -10,9 +10,9 @@ import java.util.Date;
  * @date:   2019年12月5日 下午1:23:19
  */
 public class DateUtil {
-	public static SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
-	public static SimpleDateFormat dateTimeFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 	
+	public static SimpleDateFormat dateTimeFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+	public static SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 	/**
 	 * @Title: format   
 	 * @Description: 时间格式化  
